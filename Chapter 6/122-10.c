@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int day, month, year, total, prevTotal, earlyTotal, earlyDay, earlyMonth, earlyYear;
+    int day, month, year, total, prevTotal, earlyDay, earlyMonth, earlyYear;
 
     do {
         prevTotal = total;
@@ -12,7 +12,6 @@ int main(void) {
             earlyMonth = month;
             earlyDay = day;
             earlyYear = year;
-            earlyTotal = total;
         }
     } while (total != 0);
 
