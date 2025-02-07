@@ -1,4 +1,15 @@
-// Program that reverses three-digit numbers
+/*  71-2.c
+
+    Izayaa
+    September XX, 2024
+
+	C Programming: A Modern Approach, Second Edition
+	Chapter 4, Programming Project 2
+
+	Extend the program in Programming Project 1
+	to handle three-digit numbers.
+
+*/
 
 #include <stdio.h>
 

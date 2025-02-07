@@ -1,3 +1,17 @@
+/*  95-6.c
+
+    Izayaa
+    September XX, 2024
+
+	C Programming: A Modern Approach, Second Edition
+	Chapter 5, Programming Project 6
+
+	Modify the upc.c program of Section 4.1 so that it checks
+	whether a UPC is valid. After the user enters a UPC, the
+	program will display either VALID or NOT VALID.
+
+*/
+
 #include <stdio.h>
 
 int main(void) {

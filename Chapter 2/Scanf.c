@@ -24,7 +24,7 @@ int main(void)
 	printf("Dimensional weight (pounds): %d\n", weight);
 
 	scanf("%d", &i); // reads an integer; stores into i
-	scanf("%0.10f", &x); // reads a float value; stores into x
+	scanf("%f", &x); // reads a float value; stores into x
 
 	return 0;
 }

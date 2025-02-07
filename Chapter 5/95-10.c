@@ -1,3 +1,24 @@
+/*  95-10.c
+
+    Izayaa
+    October XX, 2024
+
+	C Programming: A Modern Approach, Second Edition
+	Chapter 5, Programming Project 10
+
+	Using the switch statement, write a program that converts
+	a numerical grade into a letter grade:
+
+	   Enter a numerical grade: 84
+	   Letter grade: B
+
+	Use the following grading scale: A = 90-100, B = 80-89,
+	C = 70-79, D = 60-69, F = 0-59. Hint: Break the grade
+	into two digits, then use a switch statement to test
+	the ten's digit.
+
+*/
+
 #include <stdio.h>
 
 int main(void) {

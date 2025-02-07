@@ -1,3 +1,20 @@
+/*  122-9.c
+
+    Izayaa
+    October XX, 2024
+
+	C Programming: A Modern Approach, Second Edition
+	Chapter 6, Programming Project 9
+
+	Programming Project 8 in Chapter 2 asked you to write a
+	program that calculates the remaining balance on a loan
+	after the first, second, and third monthly payments.
+	Modify the program so that it also asks the user to enter
+	the number of payments and then displays the balance
+	remaining after each of these payments.
+
+*/
+
 #include <stdio.h>
 
 int main(void) {

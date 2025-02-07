@@ -1,3 +1,18 @@
+/*  122-12.c
+
+    Izayaa
+    November XX, 2024
+
+    C Programming: A Modern Approach, Second Edition
+    Chapter 6, Programming Project 12
+
+    Modify Programming Project 11 so that the program
+    continues adding terms until the current term becomes
+    less than E where E is a small (floating-point) number
+    entered by the user.
+
+*/
+
 #include <stdio.h>
 
 int main(void) {
@@ -16,7 +31,7 @@ int main(void) {
         }
         eInitial += (1.0f / fact);
         i++;
-        printf("%.15lf\n", eInitial);
+        printf("%.15f\n", eInitial);
     }
 
     if(eInitial > e) {

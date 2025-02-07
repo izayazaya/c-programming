@@ -1,3 +1,23 @@
+/*  95-7.c
+
+    Izayaa
+    October XX, 2024
+
+	C Programming: A Modern Approach, Second Edition
+	Chapter 5, Programming Project 7
+
+	Write a program that finds the largest and smallest of
+	four integers entered by the user:
+
+	   Enter four integers: 21 43 10 35
+	   Largest: 43
+	   Smallest: 10
+
+	Use as few if statements as possible.
+	Hint: Four if statements are sufficient.
+
+*/
+
 // I needed to write a program like this that only required four if statements but I couldn't pull it off
 // I had to use 6 because I couldn't think of a way to make it work with only four if statements, maybe I can in the future...
 
