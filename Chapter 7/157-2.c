@@ -1,7 +1,7 @@
 /*  157-2.c
 
     Izayaa
-    February 8, 2024
+    February 8, 2025
 
     C Programming: A Modern Approach, Second Edition
     Chapter 7, Programming Project 2
@@ -31,8 +31,11 @@ int main(void){
 
     for(i = 1; i <= n; i++){
         printf("%10ld%15ld\n", i, i * i);
-        if(i % 24 == 0{
+        if(i % 24 == 0){
             printf("Press Enter to continue...");
+            if(i == 24){
+                getchar();
+            }
             if(getchar() == '\n'){
                 continue;
             }else{
