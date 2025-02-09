@@ -11,7 +11,7 @@
 
 	Departure time   Arrival time
 	-----------------------------
-	8:00 am         10:15 am
+	8:00 am         10:16 am
 	9:43 am         11:52 am
 	11:19 am          1:31 pm
 	12:47 pm          3:00 pm
