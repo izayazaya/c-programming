@@ -1,7 +1,7 @@
 /*  157-12.c
 
     Izayaa
-    February 19, 2025
+    February 26, 2025
 
     C Programming: A Modern Approach, Second Edition
     Chapter 7, Programming Project 12
@@ -21,19 +21,68 @@
 #include <stdio.h>
 
 int main(void){
-    char expression;
-    float operand, value;
+    int flag = 0;
+    float operand = 0, divisor = 1.0f, value = 0;
+    char expression, operator;
 
     printf("Enter an expression: ");
-    do{
-        scanf("%f\n", &operand);
-        expression = getchar();
-        switch(expression){
-            case '+':
-        }
-    }while(expression != '\n');
 
-    printf("Value of expression: %f", value);
+    do{
+        expression = getchar();
+        if(expression >= '0' && expression <= '9'){
+            if(expression == '.'){
+                flag = 1;
+            }else{
+                if(flag == 1){
+                    divisor /= 10;
+                    operand += divisor * (expression - '0');
+                }else{
+                    operand = operand * 10 + (expression - '0');
+                }
+            }
+        }
+
+    }while(expression != '+' && expression != '-' && expression != '*' && expression != '/' && expression != '\n');
+
+    value = operand;
+
+    while(expression != '\n'){
+        operand = 0;
+        divisor = 1.0f;
+        flag = 0;
+        operator = expression;
+
+        expression = getchar();
+        while(expression >= '0' && expression <= '9' || expression == '.'){
+            if(expression == '.'){
+                flag = 1;
+            }else{
+                if(flag == 1){
+                    divisor /= 10;
+                    operand += divisor * (expression - '0');
+                }else{
+                    operand = operand * 10 + (expression - '0');
+                }
+            }
+            expression = getchar();
+        }
+
+        if(operator == '+'){
+            value += operand;
+        }else if(operator == '-'){
+            value -= operand;
+        }else if(operator == '*'){
+            value *= operand;
+        }else if(operator == '/'){
+            if(operand == 0){
+                printf("Error: Division by zero.\n");
+                return 1;
+            }
+            value /= operand;
+        }
+    }
+
+    printf("Value of expression: %g", value);
 
     return 0;
 }
