@@ -26,15 +26,15 @@ int main(void){
         switch(currency){
             case 0: printf("Program terminated.\n"); break;
             case 1: conversionMatrix[0][0] *= amount, conversionMatrix[0][1] *= amount;
-                printf("JPY\t%.2f\t\t%.2f\t%.2f\n\n", amount, conversionMatrix[0][0], conversionMatrix[0][1]); break;
+                printf("JPY\t%.2f\t\t%.2f\t\t%.2f\n\n", amount, conversionMatrix[0][0], conversionMatrix[0][1]); break;
             case 2: conversionMatrix[1][0] *= amount, conversionMatrix[1][1] *= amount;
-                printf("MYR\t%.2f\t\t%.2f\t%.2f\n\n", amount, conversionMatrix[1][0], conversionMatrix[1][1]); break;
+                printf("MYR\t%.2f\t\t%.2f\t\t%.2f\n\n", amount, conversionMatrix[1][0], conversionMatrix[1][1]); break;
             case 3: conversionMatrix[2][0] *= amount, conversionMatrix[2][1] *= amount;
-                printf("SGD\t%.2f\t\t%.2f\t%.2f\n\n", amount, conversionMatrix[2][0], conversionMatrix[2][1]); break;
+                printf("SGD\t%.2f\t\t%.2f\t\t%.2f\n\n", amount, conversionMatrix[2][0], conversionMatrix[2][1]); break;
             case 4: conversionMatrix[3][0] *= amount, conversionMatrix[3][1] *= amount;
-                printf("CHF\t%.2f\t\t%.2f\t%.2f\n\n", amount, conversionMatrix[3][0], conversionMatrix[3][1]); break;
+                printf("CHF\t%.2f\t\t%.2f\t\t%.2f\n\n", amount, conversionMatrix[3][0], conversionMatrix[3][1]); break;
             case 5: conversionMatrix[4][0] *= amount, conversionMatrix[4][1] *= amount;
-                printf("CHY\t%.2f\t\t%.2f\t%.2f\n\n", amount, conversionMatrix[4][0], conversionMatrix[4][1]); break;
+                printf("CHY\t%.2f\t\t%.2f\t\t%.2f\n\n", amount, conversionMatrix[4][0], conversionMatrix[4][1]); break;
             default: printf("That is not one of the options.\n\n"); break;
         }
     }while(currency != 0 && amount != 0);
