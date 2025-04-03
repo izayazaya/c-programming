@@ -26,7 +26,7 @@
 #include <stdio.h>
 
 int main(void) {
-	int m, n, remainder, gcd;
+	int m, n, remainder;
 	printf("Enter two integers: ");
 	scanf("%d %d", &m, &n);
 

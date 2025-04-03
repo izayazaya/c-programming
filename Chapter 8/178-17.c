@@ -1,10 +1,10 @@
-/*  178-16.c
+/*  178-17.c
 
     Izayaa
-    April 1, 2025
+    April 2, 2025
 
     C Programming: A Modern Approach, Second Edition
-    Chapter 8, Programming Project 16
+    Chapter 8, Programming Project 17
 
     Write a program that prints an n x n magic square
     (a square arrangement of the numbers 1, 2, ..., n^2)
