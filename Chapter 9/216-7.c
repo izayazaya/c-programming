@@ -14,7 +14,7 @@
     two multiplications instead of three, As it happens,
     this technique can be used even when n is not a
     power of 2. If n is even, we use the formula x^n =
-    (x^n/2)^2. If n is odd, then x^n = x x x^n-1. Write
+    (x^n/2)^2. If n is odd, then x^n = x * x^n-1. Write
     a recursive function that computes x^n. (The recur-
     sion ends when n = 0, in which case the function
     returns 1.) To test your function, write a program

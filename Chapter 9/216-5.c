@@ -14,7 +14,7 @@
         void print_magic_square(int n, char magic
         _square[n][n]);
 
-    After obtaaining the number n from the user, main
+    After obtaining the number n from the user, main
     will call create_magic_square. passing it an n x n
     array that is declared inside main. create_magic_
     square will fill the array with the numbers 1, 2,
